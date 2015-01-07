@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "PaulDeBruicker 1/7/2015 09:24",
+	"super" : "Object",
+	"category" : "EmailReplyParser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"\"SignatureRegex",
+		"MultipleLineReplyHeaderRegex",
+		"QuoteHeaderRegex",
+		"QuotedLineRegex",
+		"UnderscoreLineRegex"
+	],
+	"instvars" : [
+		"fragments",
+		"foundVisible",
+		"currentFragment"
+	],
+	"name" : "EmailReply",
+	"type" : "normal"
+}

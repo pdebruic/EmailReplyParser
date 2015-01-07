@@ -1,0 +1,3 @@
+testing
+isVisible
+	^ isHidden not

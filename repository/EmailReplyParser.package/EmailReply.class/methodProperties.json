@@ -1,0 +1,19 @@
+{
+	"instance" : {
+		"multipleLineReplyHeaderRegex" : "PaulDeBruicker 1/7/2015 09:52",
+		"finishCurrentFragment" : "PaulDeBruicker 1/7/2015 10:50",
+		"visibleText" : "PaulDeBruicker 1/7/2015 09:57",
+		"quoteHeaderRegex" : "PaulDeBruicker 1/7/2015 10:56",
+		"initialize" : "PaulDeBruicker 1/7/2015 09:55",
+		"signatureRegex" : "PaulDeBruicker 1/7/2015 09:52",
+		"scanLine:" : "PaulDeBruicker 1/7/2015 10:43",
+		"readEmailBody:" : "PaulDeBruicker 1/7/2015 10:57",
+		"underscoreLineRegex" : "PaulDeBruicker 1/7/2015 10:20",
+		"quotedLineRegex" : "PaulDeBruicker 1/7/2015 09:52"
+	},
+	"class" : {
+		"initialize" : "PaulDeBruicker 1/7/2015 12:29",
+		"readEmailBody:" : "PaulDeBruicker 1/7/2015 09:53",
+		"replyFromEmailBody:" : "PaulDeBruicker 1/7/2015 09:54"
+	}
+}
