@@ -1,0 +1,13 @@
+emails
+emailOneIsNotOn
+	^ 'Thank, this is really helpful.
+
+One outstanding question I had:
+
+Locally (on development), when I run...
+
+On Oct 1, 2012, at 11:55 PM, Dave Tapley wrote:
+
+> The good news is that I''ve found a much better query for lastLocation.
+>
+'

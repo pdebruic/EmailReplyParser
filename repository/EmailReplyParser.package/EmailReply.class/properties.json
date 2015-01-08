@@ -5,10 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"\"SignatureRegex",
 		"MultipleLineReplyHeaderRegex",
 		"QuoteHeaderRegex",
 		"QuotedLineRegex",
+		"SignatureRegex",
 		"UnderscoreLineRegex"
 	],
 	"instvars" : [

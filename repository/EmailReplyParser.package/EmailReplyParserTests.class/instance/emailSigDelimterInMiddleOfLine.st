@@ -1,0 +1,10 @@
+emails
+emailSigDelimterInMiddleOfLine
+	^ 'Hi there!
+
+Stuff happened.
+
+And here is a fix -- this is not a signature.
+
+kthxbai
+'

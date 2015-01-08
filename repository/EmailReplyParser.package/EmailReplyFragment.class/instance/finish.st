@@ -1,11 +1,6 @@
 as yet unclassified
 finish
-	content := String
-		streamContents: [ :s | 
-			lines
-				do: [ :eachLine | 
-					s
-						nextPutAll: eachLine;
-						nextPut: Character cr ] ].
+	content := String cr join: lines .
+
 	lines := nil.
-	content := content reverse
+	content:=content reverse

@@ -1,0 +1,6 @@
+emails
+emailMultiWordMobileDevice
+	^ 'Here is another email
+
+Sent from my Verizon Wireless BlackBerry
+'

@@ -1,3 +1,3 @@
 testing
 shouldBeHidden
-	^ isQuoted or: [ isSignature or: [ self lines allSatisfy: [ :each | each trimBoth isEmpty ] ] ]
+	^ isQuoted or: [ isSignature or: [ self content trimBoth isEmpty ] ]

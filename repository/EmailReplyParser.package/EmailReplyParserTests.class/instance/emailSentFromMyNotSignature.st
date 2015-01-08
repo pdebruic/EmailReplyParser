@@ -1,0 +1,6 @@
+emails
+emailSentFromMyNotSignature
+	^ 'Here is another email
+
+Sent from my desk, is much easier then my mobile phone.
+'
