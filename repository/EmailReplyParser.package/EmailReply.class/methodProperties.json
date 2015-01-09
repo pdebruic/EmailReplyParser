@@ -1,6 +1,5 @@
 {
 	"instance" : {
-		"multipleLineReplyHeaderRegex" : "PaulDeBruicker 1/7/2015 09:52",
 		"newLinesFrom:with:for:" : "PaulDeBruicker 1/9/2015 10:00",
 		"finishCurrentFragment" : "PaulDeBruicker 1/7/2015 14:12",
 		"visibleText" : "PaulDeBruicker 1/9/2015 07:18",
@@ -16,7 +15,7 @@
 		"fragments" : "PaulDeBruicker 1/7/2015 14:00"
 	},
 	"class" : {
-		"initialize" : "PaulDeBruicker 1/9/2015 10:24",
+		"initialize" : "PaulDeBruicker 1/9/2015 11:58",
 		"readEmailBody:" : "PaulDeBruicker 1/7/2015 09:53",
 		"replyFromEmailBody:" : "PaulDeBruicker 1/7/2015 09:54"
 	}

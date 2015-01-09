@@ -1,3 +1,3 @@
-as yet unclassified
+regexes
 quotedLineRegex
 	^ QuotedLineRegex
