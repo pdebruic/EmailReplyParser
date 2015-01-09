@@ -1,3 +1,3 @@
 as yet unclassified
 visibleText
-	^ String cr join: (fragments select: #isVisible thenCollect: #content)
+	^ (String lf join: (fragments select: #isVisible thenCollect: #content)) trimRight

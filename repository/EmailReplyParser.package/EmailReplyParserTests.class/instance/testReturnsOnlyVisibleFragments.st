@@ -9,5 +9,5 @@ testReturnsOnlyVisibleFragments
 				doWithIndex: [ :eachFragment :index | 
 					s nextPutAll: eachFragment content.
 					index = visibleFragments size
-						ifFalse: [ s nextPut: Character cr ] ] ].
-	self assert: visibleText equals: reply visibleText
+						ifFalse: [ s nextPut: Character lf ] ] ].
+	self assert: visibleText trimRight equals: reply visibleText

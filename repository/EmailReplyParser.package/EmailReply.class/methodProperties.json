@@ -1,21 +1,22 @@
 {
 	"instance" : {
-		"fixMultipleReplyHeaderLinesIn1:" : "PaulDeBruicker 1/7/2015 23:14",
 		"multipleLineReplyHeaderRegex" : "PaulDeBruicker 1/7/2015 09:52",
+		"newLinesFrom:with:for:" : "PaulDeBruicker 1/9/2015 10:00",
 		"finishCurrentFragment" : "PaulDeBruicker 1/7/2015 14:12",
-		"visibleText" : "PaulDeBruicker 1/7/2015 17:22",
+		"visibleText" : "PaulDeBruicker 1/9/2015 07:18",
 		"quoteHeaderRegex" : "PaulDeBruicker 1/7/2015 10:56",
 		"initialize" : "PaulDeBruicker 1/7/2015 09:55",
 		"scanLine:" : "PaulDeBruicker 1/7/2015 19:22",
 		"signatureRegex" : "PaulDeBruicker 1/7/2015 09:52",
-		"readEmailBody:" : "PaulDeBruicker 1/7/2015 22:38",
+		"fixUnderscoreReplyLinesIn:" : "PaulDeBruicker 1/9/2015 10:15",
+		"readEmailBody:" : "PaulDeBruicker 1/9/2015 10:01",
+		"fixMultipleReplyHeaderLinesIn:" : "PaulDeBruicker 1/9/2015 09:59",
 		"underscoreLineRegex" : "PaulDeBruicker 1/7/2015 10:20",
-		"fixMultipleReplyHeaderLinesIn:" : "PaulDeBruicker 1/7/2015 23:44",
 		"quotedLineRegex" : "PaulDeBruicker 1/7/2015 09:52",
 		"fragments" : "PaulDeBruicker 1/7/2015 14:00"
 	},
 	"class" : {
-		"initialize" : "PaulDeBruicker 1/7/2015 22:15",
+		"initialize" : "PaulDeBruicker 1/9/2015 10:24",
 		"readEmailBody:" : "PaulDeBruicker 1/7/2015 09:53",
 		"replyFromEmailBody:" : "PaulDeBruicker 1/7/2015 09:54"
 	}

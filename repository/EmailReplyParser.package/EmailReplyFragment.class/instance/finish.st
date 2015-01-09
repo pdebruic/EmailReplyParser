@@ -1,6 +1,5 @@
 as yet unclassified
 finish
-	content := String cr join: lines .
-
+	content := String lf join: lines.
 	lines := nil.
-	content:=content reverse
+	content := content reverse

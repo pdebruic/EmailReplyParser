@@ -1,17 +1,9 @@
 as yet unclassified
 readEmailBody: anEmailBody
-	| emailBody |
+	| emailBody emailLines |
 	emailBody := anEmailBody withLineEndings: String lf.
-	self fixMultipleReplyHeaderLinesIn: emailBody.
-	emailBody := self underscoreLineRegex
-		copy: emailBody
-		translatingMatchesUsing: [ :matchedString | 
-			String
-				streamContents: [ :s | 
-					s
-						nextPut: Character cr;
-						nextPut: Character cr;
-						nextPutAll: matchedString ] ].
+	emailLines := self fixMultipleReplyHeaderLinesIn: emailBody.
+	emailBody := self fixUnderscoreReplyLinesIn: emailLines.
 	foundVisible := false.
 	currentFragment := nil.
 	emailBody reverse linesDo: [ :eachLine | self scanLine: eachLine ].

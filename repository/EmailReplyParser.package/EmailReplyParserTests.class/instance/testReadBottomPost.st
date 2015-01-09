@@ -7,6 +7,6 @@ testReadBottomPost
 	self assert: #(false false false true true true) equals: (reply fragments collect: [ :ea | ea isHidden ]) asArray.
 	self assert: reply fragments first content equals: 'Hi,'.
 	self assertFragment: reply fragments second matchesRegex: '^On.*'.
-	self assertFragment: reply fragments third matchesRegex: '^You can list.*'.
-	self assertFragment: reply fragments fourth matchesRegex: '^> .*'.
+	self assertFragment: reply fragments third matchesRegex: '^\sYou can list.*'.
+	self assertFragment: reply fragments fourth matchesRegex: '^\s> .*'.
 	self assertFragment: reply fragments sixth matchesRegex: '^_.*'
