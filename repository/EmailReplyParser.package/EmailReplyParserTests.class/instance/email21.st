@@ -14,7 +14,7 @@ email21
 
 Dear Google Apps Sync user,
 
-Google Apps Sync for Microsoft Outlook® was recently updated. Your computer
+Google Apps Sync for Microsoft OutlookÂ® was recently updated. Your computer
 now has the latest version (version 2.5). This release includes bug fixes
 to improve product reliability. For more information about these and other
 changes, please see the help article here:

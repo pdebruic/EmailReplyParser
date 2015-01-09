@@ -12,7 +12,7 @@ On 9 Jan 2014, at 2:47, George Plymale wrote:
 > I am having an odd issue wherein suddenly port forwarding stopped
 > working in a particular scenario for me.  By default I have ssh set to
 > use the following config (my ~/.ssh/config file):
-> […]
+> [â¦]
 > ---
 > Reply to this email directly or view it on GitHub:
 > https://github.com/textmate/rmate/issues/29
