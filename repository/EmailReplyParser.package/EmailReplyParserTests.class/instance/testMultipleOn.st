@@ -1,6 +1,6 @@
 tests
 testMultipleOn
-	reply := EmailReply readEmailBody: self emailGreedyOn.
+	reply := EmailReplyParser readEmailBody: self emailGreedyOn.
 	self assert: #(false true) equals: (reply fragments collect: [ :ea | ea isQuoted ]) asArray.
 	self assert: #(false false) equals: (reply fragments collect: [ :ea | ea isSignature ]) asArray.
 	self assert: #(false true) equals: (reply fragments collect: [ :ea | ea isHidden ]) asArray.

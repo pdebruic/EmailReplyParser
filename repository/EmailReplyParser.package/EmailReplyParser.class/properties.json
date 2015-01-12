@@ -14,8 +14,9 @@
 	"instvars" : [
 		"fragments",
 		"foundVisible",
-		"currentFragment"
+		"currentFragment",
+		"processingWholeEmail"
 	],
-	"name" : "EmailReply",
+	"name" : "EmailReplyParser",
 	"type" : "normal"
 }

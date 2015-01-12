@@ -1,0 +1,3 @@
+initialization
+processWholeEmail
+	processingWholeEmail := true

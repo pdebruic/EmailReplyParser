@@ -1,6 +1,6 @@
 tests
 testReadTopPost
-	reply := EmailReply readEmailBody: self email13.
+	reply := EmailReplyParser readEmailBody: self email13.
 	self assert: reply fragments size equals: 5.
 	self assert: #(false false true false false) equals: (reply fragments collect: [ :ea | ea isQuoted ]) asArray.
 	self assert: #(false true false false true) equals: (reply fragments collect: [ :ea | ea isSignature ]) asArray.

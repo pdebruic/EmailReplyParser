@@ -1,10 +1,9 @@
 as yet unclassified
-fixMultipleReplyHeaderLinesIn: emailBody
-	| lines ons wrotes linesToCat |
-	lines := emailBody lines.
+fixMultipleReplyHeaderLinesIn: someEmailLines
+	| ons wrotes linesToCat |
 	ons := OrderedCollection new.
 	wrotes := OrderedCollection new.
-	lines
+	someEmailLines
 		doWithIndex: [ :each :ind | 
 			each size >= 6
 				ifTrue: [ 
@@ -25,4 +24,4 @@ fixMultipleReplyHeaderLinesIn: emailBody
 						do: [ :onLineNum | 
 							(wroteLineNum > onLineNum and: [ wroteLineNum - onLineNum < 3 ])
 								ifTrue: [ linesToCat add: onLineNum -> wroteLineNum ] ] ] ].
-	^ self newLinesFrom: lines with: linesToCat for: emailBody
+	^ self newLinesFrom: someEmailLines with: linesToCat

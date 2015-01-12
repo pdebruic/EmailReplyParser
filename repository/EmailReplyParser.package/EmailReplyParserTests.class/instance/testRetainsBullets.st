@@ -1,6 +1,6 @@
 tests
 testRetainsBullets
-	reply := EmailReply readEmailBody: self emailBullets.
+	reply := EmailReplyParser readEmailBody: self emailBullets.
 	self
 		assert: reply visibleText
 		equals:

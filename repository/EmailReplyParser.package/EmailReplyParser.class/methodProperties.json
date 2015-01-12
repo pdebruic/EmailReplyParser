@@ -1,0 +1,32 @@
+{
+	"instance" : {
+		"finishCurrentFragment" : "PaulDeBruicker 1/7/2015 14:12",
+		"processWholeEmail" : "PaulDeBruicker 1/10/2015 09:05",
+		"quoteHeaderRegex" : "PaulDeBruicker 1/7/2015 10:56",
+		"initialize" : "PaulDeBruicker 1/10/2015 09:05",
+		"fixQuotedLinesSplitByEqualsSignsFrom:" : "PaulDeBruicker 1/10/2015 09:02",
+		"scanLine:" : "PaulDeBruicker 01/09/2015 14:18",
+		"fixUnderscoreReplyLinesIn:" : "PaulDeBruicker 1/9/2015 10:15",
+		"readEmailBody:" : "PaulDeBruicker 1/11/2015 20:25",
+		"fixMultipleReplyHeaderLinesIn:" : "PaulDeBruicker 1/11/2015 20:27",
+		"signatureRegex" : "PaulDeBruicker 1/7/2015 09:52",
+		"underscoreLineRegex" : "PaulDeBruicker 1/7/2015 10:20",
+		"newLinesFrom:with:" : "PaulDeBruicker 1/11/2015 20:27",
+		"quotedLineRegex" : "PaulDeBruicker 1/7/2015 09:52",
+		"fragments" : "PaulDeBruicker 1/7/2015 14:00",
+		"visibleText" : "PaulDeBruicker 1/9/2015 07:18"
+	},
+	"class" : {
+		"plainTextLinesFromMultipartEmail:" : "PaulDeBruicker 1/12/2015 08:54",
+		"emailIsPlainText:" : "PaulDeBruicker 1/11/2015 20:24",
+		"twoCarriageReturns" : "PaulDeBruicker 1/9/2015 16:43",
+		"initialize" : "PaulDeBruicker 01/09/2015 14:28",
+		"getBodyFromWholeEmail:" : "PaulDeBruicker 1/11/2015 20:30",
+		"readEmailBody:" : "PaulDeBruicker 1/11/2015 19:57",
+		"wholeTextOnlyEmail" : "PaulDeBruicker 1/12/2015 09:05",
+		"fromWholeEmail:" : "PaulDeBruicker 1/11/2015 20:23",
+		"replyFromEmailBody:" : "PaulDeBruicker 1/7/2015 09:54",
+		"replyFromWholeEmail:" : "PaulDeBruicker 1/10/2015 08:40",
+		"wholeMultipartEmail" : "PaulDeBruicker 1/10/2015 09:33"
+	}
+}

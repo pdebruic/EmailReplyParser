@@ -1,6 +1,6 @@
 tests
 testDealsWithMultiLineReplyHeaders
-	reply := EmailReply readEmailBody: self email16.
+	reply := EmailReplyParser readEmailBody: self email16.
 	self assert: reply fragments size equals: 2.
 	self assert: #(false true) equals: (reply fragments collect: [ :ea | ea isQuoted ]) asArray.
 	self assert: #(false false) equals: (reply fragments collect: [ :ea | ea isSignature ]) asArray.

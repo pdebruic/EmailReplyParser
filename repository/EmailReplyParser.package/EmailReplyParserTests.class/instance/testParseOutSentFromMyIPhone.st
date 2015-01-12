@@ -1,4 +1,4 @@
 tests
 testParseOutSentFromMyIPhone
-	reply := EmailReply readEmailBody: self emailIPhone.
+	reply := EmailReplyParser readEmailBody: self emailIPhone.
 	self assert: reply visibleText equals: 'Here is another email'

@@ -1,5 +1,5 @@
 as yet unclassified
-newLinesFrom: lines with: linesToCat for: emailBody
+newLinesFrom: lines with: linesToCat
 	| fixed rejects keepers newLines |
 	rejects := OrderedCollection new.
 	keepers := OrderedCollection new.

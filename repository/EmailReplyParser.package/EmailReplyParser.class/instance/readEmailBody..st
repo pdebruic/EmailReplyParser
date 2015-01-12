@@ -1,8 +1,9 @@
 as yet unclassified
-readEmailBody: anEmailBody
+readEmailBody: someEmailLines
 	| emailBody emailLines |
-	emailBody := anEmailBody withLineEndings: String lf.
-	emailLines := self fixMultipleReplyHeaderLinesIn: emailBody.
+	emailLines := self fixMultipleReplyHeaderLinesIn: someEmailLines.
+	processingWholeEmail
+		ifTrue: [ emailLines := self fixQuotedLinesSplitByEqualsSignsFrom: emailLines ].
 	emailBody := self fixUnderscoreReplyLinesIn: emailLines.
 	foundVisible := false.
 	currentFragment := nil.

@@ -1,7 +1,7 @@
 tests
 testReturnsOnlyVisibleFragments
 	| visibleText visibleFragments |
-	reply := EmailReply readEmailBody: self email21.
+	reply := EmailReplyParser readEmailBody: self email21.
 	visibleFragments := reply fragments select: [ :each | each isVisible ].
 	visibleText := String
 		streamContents: [ :s | 
