@@ -1,22 +1,24 @@
 {
 	"instance" : {
-		"makeHidden" : "PaulDeBruicker 1/7/2015 10:51",
-		"isQuoted:" : "PaulDeBruicker 1/7/2015 09:34",
-		"lines:" : "PaulDeBruicker 1/7/2015 09:34",
-		"addLine:" : "PaulDeBruicker 1/10/2015 09:03",
-		"finish" : "PaulDeBruicker 1/9/2015 07:17",
+		"renderOn:" : "PaulDeBruicker 1/12/2015 11:21",
+		"finish" : "PaulDeBruicker 1/12/2015 11:19",
 		"initialize" : "PaulDeBruicker 1/7/2015 09:34",
-		"isQuoted" : "PaulDeBruicker 1/7/2015 09:34",
+		"lines:" : "PaulDeBruicker 1/7/2015 09:34",
 		"lines" : "PaulDeBruicker 1/7/2015 09:34",
+		"cssClass" : "PaulDeBruicker 1/12/2015 11:21",
+		"content" : "PaulDeBruicker 1/7/2015 09:34",
+		"isVisible" : "PaulDeBruicker 1/7/2015 09:58",
+		"isQuoted" : "PaulDeBruicker 1/7/2015 09:34",
+		"isSignature" : "PaulDeBruicker 1/7/2015 09:34",
+		"addLine:" : "PaulDeBruicker 1/10/2015 09:03",
+		"makeHidden" : "PaulDeBruicker 1/7/2015 10:51",
+		"isHidden" : "PaulDeBruicker 1/7/2015 09:34",
+		"isQuoted:" : "PaulDeBruicker 1/7/2015 09:34",
+		"shouldBeHidden" : "PaulDeBruicker 1/7/2015 13:01",
 		"isHidden:" : "PaulDeBruicker 1/7/2015 09:34",
 		"printOn:" : "PaulDeBruicker 1/7/2015 16:29",
 		"content:" : "PaulDeBruicker 1/7/2015 09:34",
-		"isVisible" : "PaulDeBruicker 1/7/2015 09:58",
-		"shouldBeHidden" : "PaulDeBruicker 1/7/2015 13:01",
-		"isSignature" : "PaulDeBruicker 1/7/2015 09:34",
-		"content" : "PaulDeBruicker 1/7/2015 09:34",
-		"isSignature:" : "PaulDeBruicker 1/7/2015 09:34",
-		"isHidden" : "PaulDeBruicker 1/7/2015 09:34"
+		"isSignature:" : "PaulDeBruicker 1/7/2015 09:34"
 	},
 	"class" : {
 		"isQuoted:forLine:" : "PaulDeBruicker 1/7/2015 10:42"
