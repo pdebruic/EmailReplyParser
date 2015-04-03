@@ -8,4 +8,4 @@ renderOn: html
 				do: [ :eachLine | 
 					html div
 						class: cssClass;
-						with: eachLine ] ]
+						with: eachLine reverse ] ]
