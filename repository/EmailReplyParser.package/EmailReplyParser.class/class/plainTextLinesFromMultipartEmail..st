@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 plainTextLinesFromMultipartEmail: lines
 	| boundaryIdx plainIdx plainEndIdx streamOfLines index |
 	streamOfLines := lines readStream.
@@ -13,7 +13,7 @@ plainTextLinesFromMultipartEmail: lines
 			boundaryIdx isNil
 				ifTrue: [ 
 					('*boundary*' match: nextLine)
-						ifTrue: [ boundaryIdx := (nextLine findBetweenSubStrs: #('y="' '";')) second ] ]
+						ifTrue: [ boundaryIdx := (nextLine findBetweenSubstrings: #('y="' '";')) second ] ]
 				ifFalse: [ 
 					plainIdx isNil
 						ifTrue: [ 
