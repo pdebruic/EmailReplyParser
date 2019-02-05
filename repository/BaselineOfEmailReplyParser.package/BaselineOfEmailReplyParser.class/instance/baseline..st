@@ -7,7 +7,7 @@ baseline: spec
 				baseline: 'Seaside3'
 				with: [ spec
 						repository: 'github://seasidest/seaside:master/repository';
-						loads: #('Core') ].
+						loads: #('Core' 'Email') ].
 			spec
 				package: 'EmailReplyParser';
 				package: 'EmailReplyParserSeaside'
